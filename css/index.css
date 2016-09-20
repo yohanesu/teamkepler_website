@@ -1,0 +1,38 @@
+body{
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  font-family: consolas;
+  font-size: 40px;
+  color: #0000cd;
+  margin: 10px 0 10px 0;
+}
+.navbar-list{
+  width: 100%;
+  list-style: none;
+  padding: inherit;
+}
+.navbar-list:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.navbar-list li{
+  float: left;
+  width: 25%;
+}
+.navbar-list a{
+  font-family: consolas;
+  font-size: 20px;
+  display: block;
+  line-height: 70px;
+  height: 70px;
+  text-align: center;
+  background: #000;
+  color:#fff;
+  border-right: 1px solid #00968a;
+}
+.navbar-list li:first-child a{
+  border-left: 1px solid #00968a;
+}
