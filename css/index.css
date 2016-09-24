@@ -89,7 +89,6 @@ h1 {
 }
 .branch-container h3 {
   font-size: 19px;
-  text-decoration: underline;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -101,12 +100,15 @@ h1 {
 }
 #branch-shinjuku h3 {
   color: #041fab;
+  text-shadow: #041fab 1px 1px 10px;
 }
 #branch-tsukuba h3 {
   color: #d60000;
+  text-shadow: #d60000 1px 1px 10px;
 }
 #branch-atsugi h3 {
   color: #0c7700;
+  text-shadow: #0c7700 1px 1px 10px;
 }
 .footer-container {
   margin: 15px 0px 0px 0px;
@@ -124,10 +126,10 @@ h1 {
 }
 .icon-link li {
   float: left;
-  width: 7%;
+  width: 6%;
 }
 .icon-link li:first-child {
-  padding-left: 43%;
+  padding-left: 41%;
 }
 .copyright h4 {
   font-family: Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
