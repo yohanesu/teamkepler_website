@@ -46,13 +46,18 @@ h1 {
 .carousel-container {
   width: 100%;
   margin: auto;
+  background-color: #ECECEC;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #F9F9F9),
+  color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #F9F9F9),
+  color-stop(.75, #F9F9F9), color-stop(.75, transparent),to(transparent));
+  -webkit-background-size: 10px 10px;
 }
 .carousel-item {
   text-align: center;
   list-style: none;
   margin: 0;
   padding: 0;
-  height: 432px;
+  height: 435px;
   border-bottom: 1px solid #9e9e9e;
 }
 .news-container {
@@ -126,10 +131,10 @@ h1 {
 }
 .icon-link li {
   float: left;
-  width: 6%;
+  width: 8%;
 }
 .icon-link li:first-child {
-  padding-left: 41%;
+  padding-left: 38%;
 }
 .copyright h4 {
   font-family: Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
