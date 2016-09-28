@@ -60,10 +60,22 @@ h1 {
   height: 435px;
   border-bottom: 1px solid #9e9e9e;
 }
+#main-container {
+  width: 100%;
+  height: 870px;
+}
+#left-container {
+  width: 40%;
+  float: left;
+}
+#right-container {
+  float: right;
+  width: 60%;
+}
 .news-container {
-  width: 95%;
-  margin: 15px auto 0px auto;
-  padding: 0px 15px 0px 15px;
+  width: 90%;
+  margin: 15px auto 0px 15px;
+  padding: 0px 15px;
   border: 1px solid #9e9e9e;
 }
 .news-container h2 {
@@ -79,9 +91,9 @@ h1 {
   text-align: left;
 }
 .branch-container {
-  width: 95%;
-  margin: 15px auto 0px auto;
-  padding: 0px 15px 0px 15px;
+  width: 90%;
+  margin: 15px auto 0px 15px;
+  padding: 0px 15px;
   border: 1px solid #9e9e9e;
   font-family: Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
 }
@@ -114,6 +126,53 @@ h1 {
 #branch-atsugi h3 {
   color: #0c7700;
   text-shadow: #0c7700 1px 1px 10px;
+}
+.gallery-container {
+  margin: 15px 15px 0px 15px;
+  padding: 0px 15px;
+  border: 1px solid #9e9e9e;
+  font-family: Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
+}
+.gallery-container h2 {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 4px;
+  border-left: 5px solid #004eff;
+}
+.gallery {
+  margin: 0;
+  padding: 0;
+  height: 750px;
+}
+#gallery-list {
+  margin: 0;
+  padding: 0;
+}
+#gallery-list img {
+  width: 300px;
+  height: 200px;
+}
+#gallery-list li {
+  width: 300px;
+  height: 200px;
+  margin-right: 88px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  list-style: none;
+  float: left;
+}
+#gallery-list li:nth-child(2n) {
+  margin-right: 0;
+  margin-left: 0;
+}
+#gallery-list dl {
+  font-family: Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+footer {
+  clear: both;
 }
 .footer-container {
   margin: 15px 0px 0px 0px;
