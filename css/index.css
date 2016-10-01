@@ -76,6 +76,7 @@ h1 {
   width: 60%;
 }
 .news-container {
+  height: 209px;
   margin: 0 auto 0 0;
   padding: 0px 15px;
   border: 1px solid #9e9e9e;
@@ -98,6 +99,7 @@ h1 {
   margin: 0px auto 15px auto;
 }
 .branch-container {
+  height: 451px;
   margin: 20px auto 0 0;
   padding: 0px 15px;
   border: 1px solid #9e9e9e;
