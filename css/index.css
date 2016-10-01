@@ -1,26 +1,34 @@
 body {
   margin: auto;
 }
-h1 {
+#header-logo {
   width: 1024px;
   line-height: 60px;
   height: 60px;
+  margin: 0 auto;
+  padding: 10px 0 0 0;
+  border-bottom: 2px solid #044dbd;
+
+}
+#header-logo h1 {
   text-align: left;
   font-family: Consolas, Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
   font-size: 40px;
   color: rgba(0, 0, 0, 0.8);
-  margin: 0 auto;
-  padding: 10px 0;
+  margin: auto;
+  padding: 0;
 }
 #globalnav {
   min-width: 1024px;
   margin: 0;
   padding: 0;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #044dbd;
 }
 .globalnav-list {
   width: 1024px;
-  margin: auto;
+  height: 30px;
+  line-height: 30px;
+  margin: 5px auto 5px auto;
   list-style: none;
   padding: inherit;
 }
@@ -32,7 +40,7 @@ h1 {
 .globalnav-list li {
   float: left;
   width: 20%;
-  padding: 5px 0px 5px 0px;
+  padding: 0;
 }
 .globalnav-list li:first-child > a {
   border-left: 1px solid #9e9e9e;
@@ -42,13 +50,13 @@ h1 {
   font-size: 22px;
   font-weight: bold;
   display: block;
-  line-height: 30px;
-  height: 30px;
   text-align: center;
-  background: white;
-  color:#044dbd;
-  border-right: 1px solid #9e9e9e;
+  color:#ff0000;
   text-decoration: none;
+  border-right: 1px solid #9e9e9e;
+}
+.globalnav-list a:hover {
+  color: #ff7b7b;
 }
 #carousel-container {
   margin: 20px 0;
