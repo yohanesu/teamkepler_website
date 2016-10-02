@@ -190,17 +190,16 @@ body {
   padding-left: 4px;
   border-left: 5px solid #c100d8;
 }
-#message-container ul {
-  padding-left: 20px;
-}
-#message-container li {
-list-style: none;
-}
 #message-container p {
   line-height: 1.8em;
 }
 #signature {
   margin: 20px 0;
+}
+#signature h3 {
+  text-align: right;
+  margin: 0;
+  font-family: Consolas, Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
 }
 #signature h4 {
   text-align: right;
