@@ -18,7 +18,7 @@ body {
   padding: 0;
 }
 #globalnav {
-  min-width: 1024px;
+  min-width: 1080px;
   margin: 0;
   padding: 0;
   border-bottom: 2px solid #044dbd;
@@ -59,7 +59,7 @@ body {
 }
 #carousel-container {
   margin: 20px 0;
-  min-width: 1024px;
+  min-width: 1080px;
   background: #eee;
 }
 .carousel-item {
@@ -210,7 +210,7 @@ footer {
   clear: both;
 }
 .footer-container {
-  min-width: 1024px;
+  min-width: 1080px;
   margin: 15px 0px 0px 0px;
   border-top: 1px solid #eee;
   background: #eee;
