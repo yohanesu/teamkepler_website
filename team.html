@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+  $(function() {
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+  });
+</script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="keywords" content="teamkepler,チームケプラー,パーソナルモビリティ,電動一輪車,セグウェイ,segway,ninebot,乗り物,未来">
 <meta name="description" content="Team Keplerの公式サイトです。電動一輪車・二輪車等を使った新たな競技を創り出し、大会・イベントなどを通して様々な活動を行っています。">
@@ -9,22 +16,7 @@
 <title>Team Kepler</title>
 </head>
 <body>
-<header>
-<div id="header-logo">
-<h1>Team Kepler</h1>
-</div>
-<nav>
-<div id="globalnav">
-<ul class="globalnav-list">
-  <li><a href="./team.html">チーム</a></li>
-  <li><a href="">競技</a></li>
-  <li><a href="">大会・イベント</a></li>
-  <li><a href="">スポンサー</a></li>
-  <li><a href="">問い合わせ</a></li>
-</ul>
-</div>
-</nav>
-</header>
+<div id="header"></div>
 <div class="container detail-organization">
   <div class="left-container">
   <h2>組織</h2>
@@ -72,28 +64,16 @@
       <dd>山口太朗</dd><dd>東京・新宿本部</dd></li>
       <li><img src="./image/member/tomoki_aoyama.png" alt="tomoki aoyama" />
       <dd>青山知暉</dd><dd>茨城・つくば本部</dd></li>
-      <li><img src="./image/member/hiroyuki_kawahara.png" alt="hiroyuki kawahara" />
+      <li><img src="./image/member/member_preparation.png" alt="hiroyuki kawahara" />
       <dd>河原宙幸</dd><dd>神奈川・厚木本部</dd></li>
-      <li><img src="./image/member/kazuyoshi_hoshi.png" alt="kazuyoshi hoshi" />
+      <li><img src="./image/member/member_preparation.png" alt="kazuyoshi hoshi" />
       <dd>星知良</dd><dd>神奈川・厚木本部</dd></li>
-      <li><img src="./image/member/yukimasa_hanzawa.png" alt="yukimasa hanzawa" />
+      <li><img src="./image/member/member_preparation.png" alt="yukimasa hanzawa" />
       <dd>半澤幸将</dd><dd>東京・豊洲支部</dd></li>
-      <li><img src="./image/member/takeru_wakumura.png" alt="takeru wakumura" />
+      <li><img src="./image/member/member_preparation.png" alt="takeru wakumura" />
       <dd>涌村武</dd><dd>東京・豊洲支部</dd></li>
     </ul>
-  </div>
 </div>
-<footer>
-<div class="footer-container">
-<div class="icon-link">
-  <li><a href=""><img src="./image/icon_facebook.png" alt="facebook" /></a></li>
-  <li><a href=""><img src="./image/icon_twitter.png" alt="twitter" /></a></li>
-  <li><a href=""><img src="./image/icon_youtube.png" alt="youtube" /></a></li>
-</div>
-<div class="copyright">
-  <h4>Copyright © 2016 Team Kepler. All rights reserved.</h4>
-</div>
-</div>
-</footer>
+<div id="footer"></div>
 </body>
 </html>
