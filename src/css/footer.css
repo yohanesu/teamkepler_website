@@ -1,0 +1,36 @@
+#footer {
+  clear: both;
+}
+.footer-container {
+  min-width: 1080px;
+  margin: 15px 0px 0px 0px;
+  border-top: 1px solid #eee;
+  background: #eee;
+}
+.icon-link {
+  list-style: none;
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
+.icon-link:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.icon-link li {
+  float: left;
+  width: 8%;
+}
+.icon-link li:first-child {
+  padding-left: 38%;
+}
+.icon-link img:hover {
+  opacity: 0.5;
+}
+.copyright h4 {
+  font-family: Helvetica, "Meiryo UI", "ヒラギノ角ゴPro", sans-serif;
+  color: #9e9e9e;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 15px;
+}

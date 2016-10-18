@@ -1,0 +1,9 @@
+body {
+  margin: auto;
+  min-width: 1080px;
+  -webkit-text-size-adjust: 100%;
+}
+#main {
+  width: 1024px;
+  margin: auto;
+}
