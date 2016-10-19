@@ -3,7 +3,69 @@ body {
   min-width: 1080px;
   -webkit-text-size-adjust: 100%;
 }
-#main {
+.container-1 {
+  margin: 0;
+  background: linear-gradient(#807a7a00,#0000004D);
+  min-width: 1080px;
+  padding: 0;
+}
+.container-1 h2 {
+  margin: 0 auto;
+  padding: 20px 0;
+  height: 50px;
+  line-height: 50px;
   width: 1024px;
-  margin: auto;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.container-2 {
+  margin: 10px auto 0 auto;
+}
+.title-box {
+  width: 60%;
+  background: blue;
+  border: 1px solid red;
+  height: 70px;
+}
+.title-box h2 {
+  margin: 15px 0px 15px 10px;
+  border-left: 6px solid white;
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+}
+.container-2 p {
+  margin: 10px 0;
+  width: 60%;
+}
+.container-3 h3{
+  width: 60%;
+  border-bottom: 2px solid darkviolet;
+  padding-bottom: 10px;
+  margin: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  width: 60%;
+  margin-top: 10px;
+}
+table tbody {
+  background: #eaeaea;
+}
+table tbody:nth-child(2n+1) {
+  background: #f0f0f0;
+}
+table td {
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  padding: 8px;
+}
+.w150 {
+  width: 150px;
 }
