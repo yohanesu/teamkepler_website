@@ -20,12 +20,61 @@ body {
   font-size: 28px;
   font-weight: bold;
 }
-.container {
+#main {
   width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#container-main {
+  width: 70%;
+  float: left;
+}
+#container-sub {
+  width: 25%;
+  float: left;
+  margin: 30px 0 0 50px;
+}
+.subtitle-name {
+  height: 70px;
+  line-height: 70px;
+  background: #ddaf59;
+  border-bottom: 2px solid #5d5d5d;
+}
+.subtitle-name h2 {
+  margin: 0px;
+  padding-left: 20px;
+  color: #f9f9f9;
+  font-size: 20px;
+  font-weight: bold;
+}
+.local-nav {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+}
+.local-nav li > a {
+  height: 40px;
+  line-height: 40px;
+  background: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+  padding-left: 20px;
+  text-decoration: none;
+  color: #333333;
+  display: block;
+  font-size: 14px;
+}
+.local-nav li > a:hover {
+  background: #707070;
+  color: white;
+}
+.local-nav .active {
+  background: #707070;
+  color: white;
+}
+.container {
   margin: 30px auto;
 }
 .title-box {
-  width: 70%;
   background: linear-gradient(to bottom, #f0f0f0 0%, #e5e5e5 100%);
   border: 1px solid #ccc;
   height: 70px;
@@ -40,18 +89,15 @@ body {
 }
 .container-2 p {
   margin: 10px 0 0 0;
-  width: 70%;
   font-size: 15px;
   line-height: 28px;
 }
 .container-3 h3{
-  width: 70%;
   border-bottom: 2px solid #6500d6;
   padding-bottom: 2px;
   margin: 0;
 }
 .container-3 p {
-  width: 70%;
   margin: 10px 0;
   font-size: 15px;
   line-height: 28px;
@@ -61,7 +107,6 @@ table {
   border-spacing: 0;
   border-top: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  width: 50%;
 }
 table tbody {
   background: #eaeaea;
