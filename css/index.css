@@ -1,6 +1,7 @@
 body {
   margin: auto;
   min-width: 1080px;
+  color: #333333;
   -webkit-text-size-adjust: 100%;
 }
 #carousel-container {
